@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D5nUu6aWru97MrQmKMUPWUE9kGEX2mpUbO+woAH3s7nFQ6VQ2S8vSolEh7+eDK+g5425ctSi3l7f1aUpLXdzzA==",
+  "success": true,
+  "projectFilePath": "D:\\Gobi_Files\\Nakheel\\API\\MODELS\\MODELS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gobinath\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512"
+  ],
+  "logs": []
+}

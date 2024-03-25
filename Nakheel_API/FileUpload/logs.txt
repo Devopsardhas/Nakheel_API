@@ -1,0 +1,6485 @@
+Repository Name  : Inc Category Master AddAsync
+
+Time: 11-07-2023 03.14.58 PM
+
+Message: Error converting data type nvarchar to bigint.
+
+Procedure: sp_Inc_Category_Master_Crud
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.IncidentMasterRepo.AddAsync(M_Inc_Category_Master entity) in D:\PRATHAP\SVN\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\IncidentMasterRepo.cs:line 62
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : Inc Category Master AddAsync
+
+Time: 11-07-2023 03.21.14 PM
+
+Message: Error converting data type nvarchar to bigint.
+
+Procedure: sp_Inc_Category_Master_Crud
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.IncidentMasterRepo.AddAsync(M_Inc_Category_Master entity) in D:\PRATHAP\SVN\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\IncidentMasterRepo.cs:line 62
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 07-02-2024 01:14:57 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 07-02-2024 01:14:58 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 07-02-2024 01:15:03 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 07-02-2024 01:15:03 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 07-02-2024 01:15:10 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 07-02-2024 01:15:10 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 07-02-2024 01:15:57 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 07-02-2024 01:15:57 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 07-02-2024 01:16:04 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 07-02-2024 01:16:04 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 07-02-2024 01:17:08 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '103.88.129.32' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in G:\Projects\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 07-02-2024 01:19:29 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 11:14:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Manikandan.u@ardhas.com
+
+Time: 12-02-2024 11:15:35 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 146
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 11:49:00 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 11:49:00 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Manikandan.u@ardhas.com
+
+Time: 12-02-2024 12:01:03 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 146
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 01:13:47 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 01:25:48 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : sabirhsegreenscape@gmail.com
+
+Time: 12-02-2024 01:38:45 PMTrue
+
+1
+
+Password: lfabMq+7
+
+Success EMP ID: 164
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 01:45:57 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 01:52:10 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 01:52:56 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : sabirhsegreenscape@gmail.com
+
+Time: 12-02-2024 01:53:13 PMTrue
+
+1
+
+Password: lfabMq+7
+
+Success EMP ID: 164
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 02:47:52 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : sabirhsegreenscape@gmail.com
+
+Time: 12-02-2024 02:53:39 PMTrue
+
+1
+
+Password: lfabMq+7
+
+Success EMP ID: 164
+
+OBJ: MODELS.M_Accounts
+Login Name  : sabirhsegreenscape@gmail.com
+
+Time: 12-02-2024 04:29:44 PMTrue
+
+1
+
+Password: lfabMq+7
+
+Success EMP ID: 164
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 05:42:19 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : sabirhsegreenscape@gmail.com
+
+Time: 12-02-2024 05:43:40 PMTrue
+
+1
+
+Password: lfabMq+7
+
+Success EMP ID: 164
+
+OBJ: MODELS.M_Accounts
+Login Name  : sabirhsegreenscape@gmail.com
+
+Time: 12-02-2024 05:45:24 PMTrue
+
+1
+
+Password: lfabMq+7
+
+Success EMP ID: 164
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 05:52:48 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Harold.Dsouza@nakheel.com
+
+Time: 12-02-2024 06:03:16 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 38
+
+OBJ: MODELS.M_Accounts
+Login Name  : Harold.Dsouza@nakheel.com
+
+Time: 12-02-2024 06:24:54 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 38
+
+OBJ: MODELS.M_Accounts
+Login Name  : Harold.Dsouza@nakheel.com
+
+Time: 12-02-2024 06:25:06 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 38
+
+OBJ: MODELS.M_Accounts
+Login Name  : mirza.baig@Nakheel.com
+
+Time: 12-02-2024 07:00:04 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 224
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 12-02-2024 11:16:08 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mirza.baig@Nakheel.com
+
+Time: 12-02-2024 11:47:05 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 224
+
+OBJ: MODELS.M_Accounts
+Login Name  : mirza.baig@Nakheel.com
+
+Time: 12-02-2024 11:47:07 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 224
+
+OBJ: MODELS.M_Accounts
+Login Name  : mirza.baig@Nakheel.com
+
+Time: 13-02-2024 01:10:20 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 224
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 13-02-2024 01:11:14 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 13-02-2024 01:12:19 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 13-02-2024 03:48:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 14-02-2024 11:24:28 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 14-02-2024 02:15:16 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : AddAsync
+
+Time: 14-02-2024 02:49:59 PM
+
+Message: Procedure or function Sp_Emer_Mitigation_Add has too many arguments specified.
+
+Procedure: Sp_Emer_Mitigation_Add
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.EmergencyRepo.Add_Emer_Miti(M_Emer_Mitigation_Add entity)
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : sreekanth.lalitha@strongplant.com
+
+Time: 14-02-2024 04:47:20 PMTrue
+
+1
+
+Password: S2vVD+ek
+
+Success EMP ID: 200
+
+OBJ: MODELS.M_Accounts
+Login Name  : Harold.Dsouza@nakheelcommunities.com
+
+Time: 14-02-2024 05:40:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 38
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 14-02-2024 05:42:17 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 14-02-2024 05:44:00 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : sreekanth.lalitha@strongplant.com
+
+Time: 14-02-2024 05:45:11 PMTrue
+
+1
+
+Password: S2vVD+ek
+
+Success EMP ID: 200
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 14-02-2024 06:03:32 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 14-02-2024 07:37:45 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 14-02-2024 09:14:11 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-02-2024 05:14:20 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-02-2024 01:13:38 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 16-02-2024 07:15:27 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 17-02-2024 07:20:00 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammad.alawadhi@nakheelcommunities.com 
+
+Time: 17-02-2024 07:21:09 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 36
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheelcommunities.com
+
+Time: 17-02-2024 07:43:53 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 17-02-2024 07:44:23 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 07:45:45 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 08:10:54 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 08:21:29 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 08:30:57 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 08:35:29 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 08:53:24 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 08:56:16 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 09:04:48 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 17-02-2024 09:07:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 12:52:43 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 01:19:41 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 01:43:24 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 01:46:57 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 01:54:01 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 01:56:23 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 02:17:19 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 02:28:32 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 02:34:14 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 02:36:53 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 02:52:26 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 02:58:43 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 03:00:39 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 03:07:55 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 18-02-2024 03:13:11 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 10:22:40 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 11:01:19 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 11:30:11 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 11:33:23 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 11:42:47 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 01:19:00 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 05:09:55 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 05:13:08 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 06:42:50 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-02-2024 07:26:15 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Audit_Welfare_GetAll
+
+Time: 19-02-2024 07:31:39 PM
+
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+Procedure: 
+
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Audit_Welfare_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 533
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 09:46:47 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 09:58:47 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 10:16:19 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 10:18:06 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Audit_Sp_GetById
+
+Time: 20-02-2024 10:18:24 AM
+
+Message: @Audit_Welfare_Sch_Id is not a parameter for procedure sp_Am_Sp_Service_Provider_GetbyId.
+
+Procedure: sp_Am_Sp_Service_Provider_GetbyId
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Audit_Welfare_GetById(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 583
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 12:23:26 PMTrue
+
+1
+
+Password: test1234
+
+OBJ: 
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 12:23:31 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 20-02-2024 12:23:50 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 20-02-2024 01:28:00 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 01:37:36 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 20-02-2024 01:37:49 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 01:51:52 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 02:14:06 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 02:35:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 02:42:40 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 02:44:09 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 02:51:17 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 03:01:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 05:29:15 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 05:30:58 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 05:34:05 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 05:35:29 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 05:37:35 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 05:39:38 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 05:40:44 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 06:22:05 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 06:31:05 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 06:39:41 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 06:42:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 06:47:10 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 06:48:32 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 06:51:13 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:02:10 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:05:57 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:07:15 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:16:50 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:22:26 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:26:31 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:31:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 07:40:48 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-02-2024 11:53:39 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 12:10:05 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : sabirhsegreenscape@gmail.com
+
+Time: 21-02-2024 12:15:06 AMTrue
+
+1
+
+Password: test123
+
+OBJ: 
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 12:15:11 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 12:43:57 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 12:45:22 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 12:52:20 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 01:18:38 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 03:24:27 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 03:27:00 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 03:29:04 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 03:42:22 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 03:50:22 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 03:59:14 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:14:38 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:18:20 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:21:58 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:24:33 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:27:30 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:31:41 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:39:07 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:40:52 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:42:03 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:43:10 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:46:49 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:50:14 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:55:51 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 04:57:44 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:06:39 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:08:56 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:13:53 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:18:43 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:21:21 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:26:40 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:32:05 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:37:50 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:41:52 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:47:55 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:52:04 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 21-02-2024 05:53:17 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:58:51 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 06:07:27 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:28:15 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 21-02-2024 05:40:04 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-02-2024 05:45:12 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 06:42:06 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 06:46:57 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:00:03 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:04:48 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:15:32 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:27:22 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:34:27 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:36:39 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:37:59 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:46:56 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:48:12 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:49:23 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:51:47 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:55:34 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 07:57:15 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 08:01:29 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 08:42:35 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 08:46:06 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 08:54:23 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 09:12:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 10:17:52 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 10:27:59 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 10:31:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 10:38:31 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 10:39:16 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 12:33:15 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 12:35:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 12:57:03 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 01:02:47 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 01:04:26 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 01:07:12 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammad.alawadhi@nakheelcommunities.com 
+
+Time: 22-02-2024 01:11:24 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 36
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 01:13:11 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 01:19:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 01:41:04 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 02:22:47 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 02:23:10 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 02:33:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 02:36:02 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 02:37:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 03:46:11 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 03:48:13 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Am_Sp_Find_Ques_Director_ApprovalReject
+
+Time: 22-02-2024 03:48:36 PM
+
+Message: @Audit_Welfare_Sch_Id is not a parameter for procedure sp_Am_Sp_Find_Ques_Director_Approval_Reject.
+
+Procedure: sp_Am_Sp_Find_Ques_Director_Approval_Reject
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Am_Welfare_Find_Ques_Director_ApprovalReject(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 237
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : Am_Sp_Find_Ques_Director_ApprovalReject
+
+Time: 22-02-2024 03:48:54 PM
+
+Message: @Audit_Welfare_Sch_Id is not a parameter for procedure sp_Am_Sp_Find_Ques_Director_Approval_Reject.
+
+Procedure: sp_Am_Sp_Find_Ques_Director_Approval_Reject
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Am_Welfare_Find_Ques_Director_ApprovalReject(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 237
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : Am_Sp_Find_Ques_Director_ApprovalReject
+
+Time: 22-02-2024 03:50:56 PM
+
+Message: @Audit_Welfare_Sch_Id is not a parameter for procedure sp_Am_Sp_Find_Ques_Director_Approval_Reject.
+
+Procedure: sp_Am_Sp_Find_Ques_Director_Approval_Reject
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Am_Welfare_Find_Ques_Director_ApprovalReject(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 237
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 03:50:56 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Am_Sp_Find_Ques_Director_ApprovalReject
+
+Time: 22-02-2024 03:51:27 PM
+
+Message: @Audit_Welfare_Sch_Id is not a parameter for procedure sp_Am_Sp_Find_Ques_Director_Approval_Reject.
+
+Procedure: sp_Am_Sp_Find_Ques_Director_Approval_Reject
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Am_Welfare_Find_Ques_Director_ApprovalReject(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 237
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : Am_Sp_Find_Ques_Director_ApprovalReject
+
+Time: 22-02-2024 03:57:54 PM
+
+Message: @Audit_Welfare_Sch_Id is not a parameter for procedure sp_Am_Sp_Find_Ques_Director_Approval_Reject.
+
+Procedure: sp_Am_Sp_Find_Ques_Director_Approval_Reject
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Am_Welfare_Find_Ques_Director_ApprovalReject(M_AuditWelfare entity)
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 04:22:39 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 04:30:37 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 05:04:35 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 05:10:08 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 22-02-2024 06:12:19 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 22-02-2024 06:16:27 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 22-02-2024 06:17:25 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : Ahmad.Alsadeh@nakheel.com
+
+Time: 22-02-2024 06:47:56 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 87
+
+OBJ: MODELS.M_Accounts
+Login Name  : Ahmad.Alsadeh@nakheel.com
+
+Time: 22-02-2024 06:56:54 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 87
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 03:34:44 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Audit_Welfare_GetAll
+
+Time: 28-02-2024 03:38:29 PM
+
+Message: Could not find stored procedure 'sp_Am_Sp_Welfare_GetAll'.
+
+Procedure: sp_Am_Sp_Welfare_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Audit_Welfare_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 539
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 03:39:26 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 03:42:11 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 04:43:05 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 28-02-2024 05:53:18 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 06:13:20 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 28-02-2024 06:14:38 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 06:55:58 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 07:04:52 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 28-02-2024 07:22:51 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 28-02-2024 07:36:22 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 28-02-2024 07:37:03 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 10:22:28 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 10:23:01 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 10:48:10 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 11:02:25 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 11:02:51 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Emergency_Category_Add
+
+Time: 29-02-2024 11:11:26 AM
+
+Message: The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+
+Procedure: sp_EM_Emergency_Alert_Master_Add
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.EmergencyRepo.Add_Emer_Alert(Emergency_Alert_Master entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\EmergencyRepo.cs:line 500
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : Emergency_Category_Add
+
+Time: 29-02-2024 11:13:27 AM
+
+Message: The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+
+Procedure: sp_EM_Emergency_Alert_Master_Add
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.EmergencyRepo.Add_Emer_Alert(Emergency_Alert_Master entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\EmergencyRepo.cs:line 500
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 12:23:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 12:23:38 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 01:13:08 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 01:18:02 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 01:26:45 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 01:57:53 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 02:02:49 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 02:19:24 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 02:22:43 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 03:39:37 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 03:57:04 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 03:59:30 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 04:09:58 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 04:19:51 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 04:22:25 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 04:26:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 04:30:17 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 04:33:08 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 04:46:37 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 29-02-2024 05:11:00 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 05:26:44 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 29-02-2024 05:28:29 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 05:29:33 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 05:31:41 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 05:36:04 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 05:38:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 05:40:20 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 05:43:31 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : jamsheed.palliyalil@ktcco.net
+
+Time: 29-02-2024 05:45:04 PMTrue
+
+1
+
+Password: w+5VmiVA
+
+Success EMP ID: 168
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 29-02-2024 05:54:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 06:07:13 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 06:08:00 PMTrue
+
+1
+
+Password: TEST123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 06:08:45 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 06:23:45 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 06:24:13 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 06:37:26 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 29-02-2024 06:38:08 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 06:38:41 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 06:47:06 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 06:58:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 29-02-2024 07:47:03 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 29-02-2024 08:00:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 29-02-2024 08:03:09 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Audit_Sp_GetById
+
+Time: 29-02-2024 08:07:33 PM
+
+Message: @Audit_Welfare_Sch_Id is not a parameter for procedure sp_Am_Sp_History_Approval_GetbyId.
+
+Procedure: sp_Am_Sp_History_Approval_GetbyId
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Audit_Welfare_GetById(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 608
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 29-02-2024 09:53:31 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 29-02-2024 10:33:27 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 29-02-2024 10:42:20 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 29-02-2024 10:50:07 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 03:21:05 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 03:25:52 AMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 01-03-2024 03:34:26 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 01-03-2024 03:40:08 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 03:43:23 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 01-03-2024 03:43:43 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 03:46:03 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 04:13:09 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 04:14:59 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 04:23:50 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 04:25:57 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 04:37:11 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 04:42:10 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 05:41:49 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 05:44:40 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 05:48:08 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 05:51:46 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 05:52:58 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 06:06:49 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 06:14:38 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 06:39:19 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 06:41:52 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 06:44:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 06:50:54 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 06:55:08 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 07:08:03 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 07:10:51 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 01:33:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 01:38:20 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 01:38:50 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 01:40:20 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 01-03-2024 01:40:58 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 01:41:32 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 01:42:53 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 01:43:10 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 01:45:03 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 01-03-2024 01:45:44 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 01:46:39 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 01:48:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 01-03-2024 01:53:41 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Am_Sp_Find_Ques_Lead_Au_ApprovalReject
+
+Time: 01-03-2024 01:54:01 PM
+
+Message: Invalid object name 'tbl_Am_Welfare_Questions_Action_Reject'.
+
+Procedure: sp_Am_Welfare_Ques_Action_Lead_Auditor_Approval_Reject
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Am_Welfare_Find_Ques_Lead_Au_ApprovalReject(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 289
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : Am_Sp_Find_Ques_Lead_Au_ApprovalReject
+
+Time: 01-03-2024 02:04:50 PM
+
+Message: Invalid object name 'tbl_Am_Welfare_Questions_Action_Reject'.
+
+Procedure: sp_Am_Welfare_Ques_Action_Lead_Auditor_Approval_Reject
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.AuditWelfareRepo.Am_Welfare_Find_Ques_Lead_Au_ApprovalReject(M_AuditWelfare entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AuditWelfareRepo.cs:line 289
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 01-03-2024 02:06:32 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : jacob.poothicot@nakheelcommunities.com
+
+Time: 01-03-2024 02:17:16 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 131
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 02:26:06 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 01-03-2024 02:27:24 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 03:33:51 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 01-03-2024 03:34:56 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 03:35:48 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 01-03-2024 03:37:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 01-03-2024 03:40:33 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 01-03-2024 03:48:29 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 03:49:26 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 01-03-2024 03:57:49 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 01-03-2024 04:00:41 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 04:01:05 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 04:12:59 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 04:26:36 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 04:31:02 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 01-03-2024 04:34:50 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 01-03-2024 04:38:02 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 04:38:32 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 06:47:51 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 07:27:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 08:08:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 08:43:16 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 01-03-2024 08:54:36 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 02-03-2024 03:25:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 02-03-2024 03:29:26 PMTrue
+
+1
+
+Password: test12
+
+OBJ: 
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 02-03-2024 03:29:30 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 04-03-2024 11:10:00 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 04-03-2024 11:35:03 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 04-03-2024 01:02:57 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 04-03-2024 01:04:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 04-03-2024 01:13:58 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 04-03-2024 03:10:38 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : Kelwyn.d@albonian.fm
+
+Time: 04-03-2024 03:15:04 PMTrue
+
+1
+
+Password: romX5s5R
+
+Success EMP ID: 161
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 04-03-2024 03:17:25 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 04-03-2024 03:19:26 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : GetAllAsync
+
+Time: 04-03-2024 03:36:22 PM
+
+Message: The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.EmergencyRepo.GetAll_Emer_Miti(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\EmergencyRepo.cs:line 96
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 04-03-2024 05:01:30 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 04-03-2024 05:26:29 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 04-03-2024 05:27:41 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 04:26:03 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 04:46:04 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 04:51:42 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 05:04:20 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Get_All_ERT_Team_Details
+
+Time: 05-03-2024 05:04:36 AM
+
+Message: Error converting data type nvarchar to int.
+
+Procedure: sp_EM_ERT_Team_Details_Filter
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.MasterCommunityRepo.Get_All_ERT_Team_Details_Filter(ERT_Team_Details entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\MasterCommunityRepo.cs:line 1001
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 05:05:17 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 05:17:00 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 06:24:10 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Insp_Safety_Violation_GetAll
+
+Time: 05-03-2024 06:25:53 AM
+
+Message: Procedure or function sp_Insp_Safety_Violation_GetAll has too many arguments specified.
+
+Procedure: sp_Insp_Safety_Violation_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.InspectionFormRepo.Insp_Safety_Violation_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\InspectionFormRepo.cs:line 1814
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 06:29:39 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 06:44:36 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 06:56:13 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 06:58:58 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : Get_All_ERT_Team_Details
+
+Time: 05-03-2024 06:59:17 AM
+
+Message: Error converting data type nvarchar to int.
+
+Procedure: sp_EM_ERT_Team_Details_Filter
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.MasterCommunityRepo.Get_All_ERT_Team_Details_Filter(ERT_Team_Details entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\MasterCommunityRepo.cs:line 1001
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 07:00:09 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 07:01:22 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 07:02:16 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 05-03-2024 07:04:19 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 05-03-2024 07:04:19 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 05-03-2024 07:04:25 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 05-03-2024 07:04:25 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 05-03-2024 07:04:39 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 05-03-2024 07:04:39 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 05-03-2024 07:04:56 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 05-03-2024 07:04:56 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 05-03-2024 07:06:10 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 05-03-2024 07:06:10 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 05-03-2024 07:06:45 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '171.79.52.130' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+AD Failed  : 
+
+Time: 05-03-2024 07:08:27 AM
+
+Login Name  : 
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 05-03-2024 07:08:32 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 06-03-2024 03:23:30 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 07-03-2024 12:48:32 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 07-03-2024 01:35:26 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 07-03-2024 01:39:33 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 07-03-2024 01:39:50 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : safetyofficer1@btfsfireprotection.com
+
+Time: 07-03-2024 01:40:55 PMTrue
+
+1
+
+Password: xAaBhDWn
+
+Success EMP ID: 205
+
+OBJ: MODELS.M_Accounts
+Login Name  : Sunayna.Bhambhani@nakheel.com
+
+Time: 07-03-2024 01:45:41 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 4
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 07-03-2024 03:02:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 07-03-2024 03:40:57 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 07-03-2024 07:17:57 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 04:18:26 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 05:03:26 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 05:07:23 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 05:21:02 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 05:24:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 05:45:24 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 05:51:19 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 06:04:39 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 10-03-2024 06:16:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 11-03-2024 11:12:09 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 11-03-2024 01:32:40 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 11-03-2024 01:44:48 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 11-03-2024 01:57:04 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 12:45:34 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 01:30:34 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 02:53:37 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 03:44:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 03:47:28 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 03:49:12 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Christopher.Pablico@nakheelcommunities.com
+
+Time: 15-03-2024 04:10:01 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 6
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 05:29:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 15-03-2024 05:32:13 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 04:38:16 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 19-03-2024 04:39:37 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 04:45:53 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 19-03-2024 04:46:07 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 19-03-2024 04:49:21 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 04:56:42 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : admin@ardhas.com
+
+Time: 19-03-2024 04:58:11 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 145
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 04:58:54 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 05:03:09 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 19-03-2024 05:07:22 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 19-03-2024 05:08:06 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 19-03-2024 05:09:06 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 05:23:19 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 19-03-2024 05:24:20 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 19-03-2024 05:30:06 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : francis.giani@nakheel.com
+
+Time: 19-03-2024 05:32:30 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 155
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 05:33:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 19-03-2024 05:36:33 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 08:09:14 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 19-03-2024 08:12:18 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 12:05:47 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 12:11:50 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 12:13:53 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 20-03-2024 12:21:51 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '106.195.46.157' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 20-03-2024 12:21:52 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '106.195.46.157' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 20-03-2024 12:22:59 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '106.195.46.157' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : User_Verification
+
+Time: 20-03-2024 12:22:59 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '106.195.46.157' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.User_Verification(M_Accounts entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 38
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : LocalUser_Email_Password_Validate
+
+Time: 20-03-2024 12:23:44 AM
+
+Message: Cannot open server 'neoehs-nakheel-sql' requested by the login. Client with IP address '106.195.46.157' is not allowed to access the server.  To enable access, use the Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+
+Procedure: 
+
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 418
+   at BUSINESS_LOGIC.BusinessLogic.AccountsRepo.LocalUser_Email_Password_Validate(String User_Name) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\AccountsRepo.cs:line 185
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 12:25:07 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Repository Name  : SafetyPer_Main_Dash_Card_View_Data
+
+Time: 20-03-2024 12:25:22 AM
+
+Message: Could not find stored procedure 'sp_Dash_Main_Control_Work_Card_View_Data'.
+
+Procedure: sp_Dash_Main_Control_Work_Card_View_Data
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.MasterCommunityRepo.SafetyPer_Main_Dash_Card_View_Data(DashboardParam entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\MasterCommunityRepo.cs:line 1297
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : DrillSchedule/Drill_Schedule_GetAll
+
+Time: 20-03-2024 12:36:02 AM
+
+Message: Procedure or function sp_EMR_Drill_SCH_GetAll has too many arguments specified.
+
+Procedure: sp_EMR_Drill_SCH_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.DrillSchedule.Drill_Schedule_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\DrillSchedule.cs:line 72
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : DrillSchedule/Drill_Schedule_GetAll
+
+Time: 20-03-2024 12:36:12 AM
+
+Message: Procedure or function sp_EMR_Drill_SCH_GetAll has too many arguments specified.
+
+Procedure: sp_EMR_Drill_SCH_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.DrillSchedule.Drill_Schedule_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\DrillSchedule.cs:line 72
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : DrillSchedule/Drill_Schedule_GetAll
+
+Time: 20-03-2024 12:36:19 AM
+
+Message: Procedure or function sp_EMR_Drill_SCH_GetAll has too many arguments specified.
+
+Procedure: sp_EMR_Drill_SCH_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.DrillSchedule.Drill_Schedule_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\DrillSchedule.cs:line 72
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : DrillSchedule/Drill_Schedule_GetAll
+
+Time: 20-03-2024 12:36:28 AM
+
+Message: Procedure or function sp_EMR_Drill_SCH_GetAll has too many arguments specified.
+
+Procedure: sp_EMR_Drill_SCH_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.DrillSchedule.Drill_Schedule_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\DrillSchedule.cs:line 72
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : DrillSchedule/Drill_Schedule_GetAll
+
+Time: 20-03-2024 12:37:07 AM
+
+Message: Procedure or function sp_EMR_Drill_SCH_GetAll has too many arguments specified.
+
+Procedure: sp_EMR_Drill_SCH_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.DrillSchedule.Drill_Schedule_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\DrillSchedule.cs:line 72
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : DrillSchedule/Drill_Schedule_GetAll
+
+Time: 20-03-2024 12:37:14 AM
+
+Message: Procedure or function sp_EMR_Drill_SCH_GetAll has too many arguments specified.
+
+Procedure: sp_EMR_Drill_SCH_GetAll
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.DrillSchedule.Drill_Schedule_GetAll(DataTableAjaxPostModel entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\DrillSchedule.cs:line 72
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : SafetyPer_Main_Dash_Card_View_Data
+
+Time: 20-03-2024 12:44:38 AM
+
+Message: Could not find stored procedure 'sp_Dash_Main_Audit_Card_View_Data'.
+
+Procedure: sp_Dash_Main_Audit_Card_View_Data
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.MasterCommunityRepo.Audit_Main_Dash_Card_View_Data(DashboardParam entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\MasterCommunityRepo.cs:line 1321
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : SafetyPer_Main_Dash_Card_View_Data
+
+Time: 20-03-2024 12:45:39 AM
+
+Message: Could not find stored procedure 'sp_Dash_Main_Control_Work_Card_View_Data'.
+
+Procedure: sp_Dash_Main_Control_Work_Card_View_Data
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.MasterCommunityRepo.SafetyPer_Main_Dash_Card_View_Data(DashboardParam entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\MasterCommunityRepo.cs:line 1297
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Repository Name  : SafetyPer_Main_Dash_Card_View_Data
+
+Time: 20-03-2024 12:45:45 AM
+
+Message: Could not find stored procedure 'sp_Dash_Main_Control_Work_Card_View_Data'.
+
+Procedure: sp_Dash_Main_Control_Work_Card_View_Data
+
+StackTrace:    at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at BUSINESS_LOGIC.BusinessLogic.MasterCommunityRepo.SafetyPer_Main_Dash_Card_View_Data(DashboardParam entity) in D:\Gobi_Files\Nakheel\API\BUSINESS_LOGIC\BusinessLogic\MasterCommunityRepo.cs:line 1297
+
+Source: Core .Net SqlClient Data Provider
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 12:56:06 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 01:05:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Manikandan.u@ardhas.com
+
+Time: 20-03-2024 01:08:34 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 146
+
+OBJ: MODELS.M_Accounts
+Login Name  : mohammed.alawadhi@nakheel.com
+
+Time: 20-03-2024 01:09:39 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 126
+
+OBJ: MODELS.M_Accounts
+Login Name  : najla.almahri@nakheelcommunities.com
+
+Time: 20-03-2024 01:09:59 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 127
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 20-03-2024 01:10:22 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : Christopher.Pablico@nakheelcommunities.com
+
+Time: 20-03-2024 01:53:18 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 6
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:06:09 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:11:17 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:25:42 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:29:17 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:34:12 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:38:38 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:43:37 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:45:32 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:52:03 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:54:55 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 02:56:57 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : Christopher.Pablico@nakheelcommunities.com
+
+Time: 20-03-2024 02:58:45 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 6
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 12:53:35 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 01:07:22 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 01:09:07 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 01:43:20 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 04:24:13 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 05:58:49 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 06:16:30 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 06:18:39 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 06:20:24 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 06:23:08 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 06:53:45 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 07:01:48 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 07:09:50 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 20-03-2024 07:44:39 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : boojie.bonde@nakheelcommunities.com
+
+Time: 21-03-2024 11:00:52 AMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 132
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-03-2024 01:45:56 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts
+Login Name  : shehnas.mattil@nakheelcommunities.com
+
+Time: 21-03-2024 03:17:56 PMTrue
+
+1
+
+Password: test123
+
+Success EMP ID: 130
+
+OBJ: MODELS.M_Accounts

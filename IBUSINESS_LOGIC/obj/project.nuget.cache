@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "k/BqjpM9sxjx9f7qooTl5eoD74gXsoZsypeNv+RArDfyXr9pcSLdeoYbMJrS5ZeI3/UA1Ktiio2RI6QH8qNkPA==",
+  "success": true,
+  "projectFilePath": "D:\\Gobi_Files\\Nakheel\\API\\IBUSINESS_LOGIC\\IBUSINESS_LOGIC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gobinath\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
+    "C:\\Users\\Gobinath\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Gobinath\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Gobinath\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
